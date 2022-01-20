@@ -1,0 +1,155 @@
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local _3008Scp = Instance.new("TextButton")
+local BloodMoon = Instance.new("TextButton")
+local BOOGAfk = Instance.new("TextButton")
+local Islands = Instance.new("TextButton")
+local JailBreak = Instance.new("TextButton")
+local MM2Vynx = Instance.new("TextButton")
+local Phantom = Instance.new("TextButton")
+local Phantom2 = Instance.new("TextButton")
+local Projectlaz = Instance.new("TextButton")
+local Shootout = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Workspace
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
+Frame.Position = UDim2.new(0.317905009, 0, 0.327354252, 0)
+Frame.Size = UDim2.new(0, 350, 0, 223)
+Frame.Active = true
+Frame.Draggable = true
+
+_3008Scp.Name = "3008 Scp"
+_3008Scp.Parent = ScreenGui
+_3008Scp.BackgroundColor3 = Color3.fromRGB(255, 170, 255)
+_3008Scp.Position = UDim2.new(0.323995113, 0, 0.343049347, 0)
+_3008Scp.Size = UDim2.new(0, 160, 0, 35)
+_3008Scp.Font = Enum.Font.SourceSans
+_3008Scp.Text = "3008 Scp"
+_3008Scp.TextColor3 = Color3.fromRGB(0, 0, 0)
+_3008Scp.TextSize = 14.000
+_3008Scp.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/KkYSW1Gu",true))()
+end)
+
+BloodMoon.Name = "BloodMoon"
+BloodMoon.Parent = ScreenGui
+BloodMoon.BackgroundColor3 = Color3.fromRGB(255, 170, 255)
+BloodMoon.Position = UDim2.new(0.323995113, 0, 0.439461887, 0)
+BloodMoon.Size = UDim2.new(0, 160, 0, 35)
+BloodMoon.Font = Enum.Font.SourceSans
+BloodMoon.Text = "BloodMoon"
+BloodMoon.TextColor3 = Color3.fromRGB(0, 0, 0)
+BloodMoon.TextSize = 14.000
+BloodMoon.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Quxkka/KillerMoonV1/master/KillerMoonV1.lua", true))()
+end)
+
+BOOGAfk.Name = "BOOGA fk"
+BOOGAfk.Parent = ScreenGui
+BOOGAfk.BackgroundColor3 = Color3.fromRGB(255, 170, 255)
+BOOGAfk.Position = UDim2.new(0.323995113, 0, 0.538116634, 0)
+BOOGAfk.Size = UDim2.new(0, 160, 0, 35)
+BOOGAfk.Font = Enum.Font.SourceSans
+BOOGAfk.Text = "BOOGA fk"
+BOOGAfk.TextColor3 = Color3.fromRGB(0, 0, 0)
+BOOGAfk.TextSize = 14.000
+BOOGAfk.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Ranboo-Senpa1/Booga-fk/main/Booga%20fk"))()
+
+end)
+
+Islands.Name = "Islands"
+Islands.Parent = ScreenGui
+Islands.BackgroundColor3 = Color3.fromRGB(255, 170, 255)
+Islands.Position = UDim2.new(0.323995113, 0, 0.634529173, 0)
+Islands.Size = UDim2.new(0, 160, 0, 35)
+Islands.Font = Enum.Font.SourceSans
+Islands.Text = "Islands"
+Islands.TextColor3 = Color3.fromRGB(0, 0, 0)
+Islands.TextSize = 14.000
+Islands.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("http://void-scripts.com/Scripts/islands_new.lua"))()
+end)
+
+JailBreak.Name = "JailBreak"
+JailBreak.Parent = ScreenGui
+JailBreak.BackgroundColor3 = Color3.fromRGB(255, 170, 255)
+JailBreak.Position = UDim2.new(0.323995113, 0, 0.735425949, 0)
+JailBreak.Size = UDim2.new(0, 160, 0, 35)
+JailBreak.Font = Enum.Font.SourceSans
+JailBreak.Text = "JailBreak"
+JailBreak.TextColor3 = Color3.fromRGB(0, 0, 0)
+JailBreak.TextSize = 14.000
+JailBreak.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Jailbreak/Jailbreak"))()
+end)
+
+MM2Vynx.Name = "MM2 Vynx"
+MM2Vynx.Parent = ScreenGui
+MM2Vynx.BackgroundColor3 = Color3.fromRGB(255, 170, 255)
+MM2Vynx.Position = UDim2.new(0.535931766, 0, 0.343049347, 0)
+MM2Vynx.Size = UDim2.new(0, 160, 0, 35)
+MM2Vynx.Font = Enum.Font.SourceSans
+MM2Vynx.Text = "MM2 Vynx"
+MM2Vynx.TextColor3 = Color3.fromRGB(0, 0, 0)
+MM2Vynx.TextSize = 14.000
+MM2Vynx.MouseButton1Down:connect(function()
+	loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+end)
+
+Phantom.Name = "Phantom"
+Phantom.Parent = ScreenGui
+Phantom.BackgroundColor3 = Color3.fromRGB(255, 170, 255)
+Phantom.Position = UDim2.new(0.535931766, 0, 0.437219739, 0)
+Phantom.Size = UDim2.new(0, 160, 0, 35)
+Phantom.Font = Enum.Font.SourceSans
+Phantom.Text = "Phantom"
+Phantom.TextColor3 = Color3.fromRGB(0, 0, 0)
+Phantom.TextSize = 14.000
+Phantom.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://ehub.fun/raw/script.lua"))()
+end)
+
+Phantom2.Name = "Phantom2"
+Phantom2.Parent = ScreenGui
+Phantom2.BackgroundColor3 = Color3.fromRGB(255, 170, 255)
+Phantom2.Position = UDim2.new(0.535931766, 0, 0.538116634, 0)
+Phantom2.Size = UDim2.new(0, 160, 0, 35)
+Phantom2.Font = Enum.Font.SourceSans
+Phantom2.Text = "Phantom2"
+Phantom2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Phantom2.TextSize = 14.000
+Phantom2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://projectevo.xyz/script/loader.lua"))()
+end)
+
+Projectlaz.Name = "Project laz"
+Projectlaz.Parent = ScreenGui
+Projectlaz.BackgroundColor3 = Color3.fromRGB(255, 170, 255)
+Projectlaz.Position = UDim2.new(0.535931766, 0, 0.632287025, 0)
+Projectlaz.Size = UDim2.new(0, 160, 0, 35)
+Projectlaz.Font = Enum.Font.SourceSans
+Projectlaz.Text = "Project laz"
+Projectlaz.TextColor3 = Color3.fromRGB(0, 0, 0)
+Projectlaz.TextSize = 14.000
+Projectlaz.MouseButton1Down:connect(function()
+	Scriptloadstring(game:HttpGet("https://bruh.keshsenpai.com/.lua"))()
+end)
+
+Shootout.Name = "Shoot out"
+Shootout.Parent = ScreenGui
+Shootout.BackgroundColor3 = Color3.fromRGB(255, 170, 255)
+Shootout.Position = UDim2.new(0.535931766, 0, 0.733183861, 0)
+Shootout.Size = UDim2.new(0, 160, 0, 35)
+Shootout.Font = Enum.Font.SourceSans
+Shootout.Text = "Shoot out"
+Shootout.TextColor3 = Color3.fromRGB(0, 0, 0)
+Shootout.TextSize = 14.000
+Shootout.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Ranboo-Senpa1/shoot-out/main/shoot%20out"))()
+end)
